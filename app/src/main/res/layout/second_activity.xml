@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <WebView
+        android:layout_width="382dp"
+        android:layout_height="615dp"
+        android:id="@+id/graficas"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btSalientes2" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="@string/salientes"
+        android:id="@+id/btSalientes2"
+        android:onClick="btsalientes"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/graficas"
+        android:layout_alignEnd="@+id/graficas"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="@string/entrantes"
+        android:id="@+id/btEntrantes2"
+        android:onClick="btentrantes"
+        android:layout_alignTop="@+id/btSalientes2"
+        android:layout_alignLeft="@+id/graficas"
+        android:layout_alignStart="@+id/graficas" />
+</RelativeLayout>

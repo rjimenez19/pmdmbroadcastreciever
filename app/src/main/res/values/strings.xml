@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">broadcastReciever</string>
+    <string name="action_settings">Settings</string>
+    <string name="entrantes">Entrantes</string>
+    <string name="salientes">Salientes</string>
+    <string name="segunda">Segunda</string>
+    <string name="entrantes1">Lista de llamadas entrantes</string>
+    <string name="salientes1">Lista de llamadas salientes</string>
+    <string name="graficas">Graficas</string>
+    <string name="tercera">Llamadas Entrantes</string>
+    <string name="cuarta">Llamadas Salientes</string>
+</resources>
